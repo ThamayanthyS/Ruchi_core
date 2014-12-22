@@ -1,0 +1,14 @@
+com\ruchi\hibernate\model\DAO\ReviewDao.class
+com\ruchi\hibernate\util\HibernateUtil.class
+com\ruchi\hibernate\model\Food.class
+com\ruchi\hibernate\model\DAO\RestaurantDao.class
+com\ruchi\hibernate\model\Review.class
+com\ruchi\hibernate\main\HibernateMain.class
+com\ruchi\hibernate\model\DAO\CityDao.class
+com\ruchi\hibernate\model\Sentiment.class
+com\ruchi\hibernate\model\DAO\SentenceDao.class
+com\ruchi\hibernate\model\DAO\FoodDao.class
+com\ruchi\hibernate\model\DAO\SentimentDao.class
+com\ruchi\hibernate\model\Sentence.class
+com\ruchi\hibernate\model\Restaurant.class
+com\ruchi\hibernate\model\City.class
