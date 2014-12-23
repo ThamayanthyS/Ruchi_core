@@ -15,7 +15,6 @@ public class CityDao {
     @Column(name = "city_id", nullable = false, unique = true, length = 20)
     private String city_id;
 
-
     @Column(name = "rest_name", nullable = false, unique = false, length = 20)
     private String city_name;
 

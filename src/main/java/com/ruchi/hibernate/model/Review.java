@@ -9,7 +9,7 @@ public class Review {
     private String review_id;
     private String rest_id;
     private String review;
-    private Date date;
+    private Date timestamp;
     private float sent_value;
 
     public String getReview_id() {
@@ -36,12 +36,12 @@ public class Review {
         this.review = review;
     }
 
-    public Date getDate() {
-        return date;
+    public Date getTimestamp() {
+        return timestamp;
     }
 
-    public void setDate(Date date) {
-        this.date = date;
+    public void setTimestamp(Date timestamp) {
+        this.timestamp = timestamp;
     }
 
     public float getSent_value() {

@@ -3,7 +3,7 @@
         "http://hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping>
-    <class name="com.ruchi.hibernate.model.Restaurant" table="restaurants">
+    <class name="com.ruchi.hibernate.model.DAO.RestaurantDao" table="restaurants">
         <id name="rest_id" type="java.lang.String">
             <column name="rest_id" />
             <!--<generator class="increment" />-->

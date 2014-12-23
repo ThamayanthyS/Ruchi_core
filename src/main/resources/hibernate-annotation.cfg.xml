@@ -15,5 +15,11 @@
 
         <!-- Mapping with model class containing annotations -->
         <mapping class="com.ruchi.hibernate.model.Restaurant"/>
+        <mapping class="com.ruchi.hibernate.model.City"/>
+        <mapping class="com.ruchi.hibernate.model.Food"/>
+        <mapping class="com.ruchi.hibernate.model.Review"/>
+        <mapping class="com.ruchi.hibernate.model.Sentence"/>
+        <mapping class="com.ruchi.hibernate.model.Sentiment"/>
+
     </session-factory>
 </hibernate-configuration>

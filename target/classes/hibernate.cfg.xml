@@ -24,5 +24,11 @@
 
         <!-- mapping file, we can use Bean annotations too -->
         <mapping resource="restaurant.hbm.xml" />
+        <mapping resource="city.hbm.xml"/>
+        <mapping resource="food.hbm.xml"/>
+        <mapping resource="review.hbm.xml"/>
+        <mapping resource="sentence.hbm.xml"/>
+        <mapping resource="sentiment.hbm.xml"/>
+
     </session-factory>
 </hibernate-configuration>
