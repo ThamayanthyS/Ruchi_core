@@ -17,7 +17,7 @@
         <property name="timestamp" type="java.util.Date">
             <column name="timestamp" />
         </property>
-        <property name="sent_value" type="int">
+        <property name="sent_value" type="float">
             <column name="sentiment_value" />
         </property>
     </class>

@@ -18,7 +18,7 @@ public class SentenceDao {
     private String review_id;
 
     @Column(name = "sentence_location", nullable = false, unique = false, length = 50)
-    private String sentence_location;
+    private int sentence_location;
 
     @Column(name = "food_id", nullable = false, unique = false, length = 50)
     private String food_id;
@@ -34,11 +34,11 @@ public class SentenceDao {
         this.review_id = review_id;
     }
 
-    public String getSentence_location() {
+    public int getSentence_location() {
         return sentence_location;
     }
 
-    public void setSentence_location(String sentence_location) {
+    public void setSentence_location(int sentence_location) {
         this.sentence_location = sentence_location;
     }
 

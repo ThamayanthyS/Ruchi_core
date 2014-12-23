@@ -5,7 +5,7 @@ package com.ruchi.hibernate.model;
  */
 public class Sentence {
     private String review_id;
-    private String sentence_location;
+    private int sentence_location;
     private String food_id;
     private float sentiment_value;
 
@@ -17,11 +17,11 @@ public class Sentence {
         this.review_id = review_id;
     }
 
-    public String getSentence_location() {
+    public int getSentence_location() {
         return sentence_location;
     }
 
-    public void setSentence_location(String sentence_location) {
+    public void setSentence_location(int sentence_location) {
         this.sentence_location = sentence_location;
     }
 

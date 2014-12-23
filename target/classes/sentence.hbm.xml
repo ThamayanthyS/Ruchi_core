@@ -14,7 +14,7 @@
         <property name="food_id" type="java.lang.String">
             <column name="food_id" />
         </property>
-        <property name="sentiment_value" type="java.lang.String">
+        <property name="sentiment_value" type="float">
             <column name="sentiment_value" />
         </property>
     </class>
